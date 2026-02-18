@@ -1,0 +1,23 @@
+project_name: look_commerce_agent
+databases:
+- type: bigquery
+  name: bigquery-public-data
+  include: []
+  exclude: []
+  accessors:
+  - columns
+  - description
+  - preview
+  project_id: natural-bison-482517-a7
+  dataset_id: thelook_ecommerce
+  credentials_path: ../credentials.json
+  credentials_json: null
+  sso: false
+  location: null
+repos: []
+notion: null
+llm:
+  provider: openai
+  api_key: {{env('OPEN_AI_KEY')}}
+slack: null
+mcp: null
