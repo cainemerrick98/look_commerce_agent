@@ -1,14 +1,18 @@
-# Defined queries
-The 'queries' folder contains files with predefined metrics if any of the below metrics are requested please find the relevant query in this folder and use it, if its not defined use your best judgement or ask for clarification if unclear.
+# Agent Rules
 
-- customer lifetime value (filename: clv.sql)
+## Business Context
+We are a midsize fashion ecommerce company. The dataset provided contains information about customers, products, orders, logistics, web events and digital marketing campaigns.
 
-# Additional tools
-In addition to the general tools provided more specific tools have added to the 'agent/tools' folder. When these are useful please use them.
+## Tone of Voice
+- Be professional, concise, and friendly
+- Always explain your reasoning
+- If you make assumptions, state them clearly
+- Suggest follow-up questions when relevant
 
-- forecast sales (filename: forecast_sales.py)
-
-# Additional data
-Additonal useful datasets have been added to the 'docs/data' folder. Use these when necessary or when requested
-
-- Sales targets (file_name: sales_targets.csv)
+## Domain Specific Context
+- **Sales & revenue questions**: Read `semantics/sales.md`
+- **Customer analytics questions**: Read `semantics/customers.md`
+- **Product performance questions**: Read `semantics/products.md`
+- **Order & fulfillment questions**: Read `semantics/orders.md`
+- **Website behavior & conversion questions**: Read `semantics/behavior.md`
+- **Business metrics & KPI definitions**: Read `semantics/metrics.md`
