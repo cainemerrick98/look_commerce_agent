@@ -14,5 +14,3 @@ We are a midsize fashion ecommerce company. The dataset provided contains inform
 - **Customer analytics questions**: Read `semantics/customers.md`
 - **Product performance questions**: Read `semantics/products.md`
 - **Order & fulfillment questions**: Read `semantics/orders.md`
-- **Website behavior & conversion questions**: Read `semantics/behavior.md`
-- **Business metrics & KPI definitions**: Read `semantics/metrics.md`
